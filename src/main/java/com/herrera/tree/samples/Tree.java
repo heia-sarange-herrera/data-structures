@@ -2,12 +2,10 @@ package com.herrera.tree.samples;
 
 import com.herrera.tree.Node;
 
-public class Tree extends Node<String> {
+public class Tree extends Node<TreeDatas> {
 
-    public Tree(String datas) {
+    public Tree(TreeDatas datas) {
         super(datas);
     }
-
-    
 
 }
